@@ -17,8 +17,3 @@ index 30a9cde..829d5a2 100644
      if (!ffmpeg->codec) {
          MOTION_LOG(ERR, TYPE_ENCODER, NO_ERRNO, "%s: Codec %s not found", ffmpeg->codec_name);
          ffmpeg_free_context(ffmpeg);
-@@ -926,4 +932,3 @@ int ffmpeg_put_image(struct ffmpeg *ffmpeg, unsigned char *image, const struct t
-     return 0;
- #endif // HAVE_FFMPEG
- }
--
