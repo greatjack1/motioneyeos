@@ -15,3 +15,4 @@
 /.download
 /.buildroot-ccache-*
 *.img.gz
+*.tar.xz
